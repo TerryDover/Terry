@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Terry Dover</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+      body {
+        font-family: "Poppins", sans-serif;
+        /* font: 20px Montserrat, sans-serif; */
+        line-height: 1.8;
+        color: #f5f6f7;
+      }
+      p {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+      }
+      .margin {
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 45px;
+      }
+      .bg-1 {
+        background-color: #7284a8; /* Wild Blue Yonder */
+        color: #ffffff;
+      }
+      .bg-2 {
+        background-color: #474e5d; /* Shadow Blue */
+        color: #ffffff;
+      }
+      .bg-3 {
+        background-color: #ffffff; /* White */
+        color: #555555;
+      }
+      .bg-4 {
+        background-color: #2f2f2f; /* Black Gray */
+        color: #fff;
+      }
+      .container-fluid {
+        font-family: "Poppins", sans-serif;
+        padding-top: 70px;
+        padding-bottom: 70px;
+      }
+      .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        letter-spacing: 5px;
+      }
+      .navbar-nav li a:hover {
+        color: #1abc9c !important;
+      }
+      .talents {
+        font-family: "Poppins", sans-serif;
+        text-indent: 50px;
+        text-align: justify;
+        letter-spacing: 3px;
+        padding: 0px 150px;
+      }
+      .container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #474954; /*Dark Liver */
+        position: relative;
+        /* width: 1100px; */
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px;
+      }
+      .container3 .card {
+        position: relative;
+        max-width: 300px;
+        height: 200px;
+        background: #fff;
+        margin: 30px 10px;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+        transition: 0.3s ease-in-out;
+      }
+      .container3 .card:hover {
+        height: 320px;
+      }
+
+      .container3 .card .imgBx {
+        position: relative;
+        width: 260px;
+        height: 260px;
+        /* top: -20px; */
+        /* left: 20px; */
+        z-index: 1;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+      }
+      .container3 .card .imgBx img {
+        max-width: 100%;
+        border-radius: 4px;
+      }
+      .container3 .card .content {
+        position: relative;
+        margin-top: -100px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s ease-in-out;
+      }
+      .container3 .card:hover .content {
+        visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">DOVER</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1 text-center">
+      <h3 class="margin">Hi! I'm Terry!</h3>
+      <img
+        src="img/me car.JPG"
+        class="img-responsive img-circle margin"
+        style="display: inline"
+        alt="Bird"
+        width="350"
+        height="350"
+      />
+      <h3 class="margin">I'm a Web Developer and Full-Stack Programmer</h3>
+    </div>
+
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center">
+      <h3 class="margin">What can I do?</h3>
+      <p class="talents">I'm a trained Full-Stack develper.</p>
+      <p class="talents">
+        I can build web sites from front-end all the way to the back-end. And
+        set-up databases on the server using the MERN stack.
+      </p>
+      <p class="talents">
+        My training included HTML, CSS, BOOTSTRAP, JavaScript, NodeJS, REACT,
+        Auth0, GitHub, MongoDB, Express, Heroku, Trello/Agile.
+      </p>
+      <!-- <a href="#" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-search"></span> Search
+      </a> -->
+    </div>
+
+    <!-- Third Container (Grid) -->
+    <div class="container3">
+      <div class="card">
+        <div class="imgBx">
+          <a href="https://terrydover.github.io/holidaze/" target="-blank"
+            ><img src="img/project1.png"
+          /></a>
+        </div>
+        <!-- imgBx -->
+        <div class="content">
+          <h2>Project 1</h2>
+          <p>The first class project I worked on with two fellow students</p>
+        </div>
+        <!-- content-->
+      </div>
+      <!--card-->
+      <div class="card">
+        <div class="imgBx">
+          <a href="https://flawnalysis.herokuapp.com/" target="-blank"
+            ><img src="img/project2.png"
+          /></a>
+        </div>
+        <!-- imgBx -->
+        <div class="content">
+          <h2>Project 2</h2>
+          <p>
+            Final Capstone project for class. I worked with 3 other students.
+          </p>
+        </div>
+        <!-- content-->
+      </div>
+      <!--card-->
+      <div class="card">
+        <div class="imgBx">
+          <img src="img/project3.png" />
+        </div>
+        <!-- imgBx -->
+        <div class="content">
+          <h2>Project 3</h2>
+          <p>A small project I've been coding on to make chump-change.</p>
+        </div>
+        <!-- content-->
+      </div>
+      <!--card-->
+    </div>
+    <!--container-->
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+      <p>Developed by Terry Dover &nbsp; ©2021</p>
+    </footer>
+  </body>
+</html>
