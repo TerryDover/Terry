@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
 body {
   font-family: "Poppins", sans-serif;
-
   line-height: 1.8;
   color: #f5f6f7;
 }
